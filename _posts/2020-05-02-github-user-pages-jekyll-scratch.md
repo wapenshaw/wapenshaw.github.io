@@ -9,11 +9,7 @@ tags: [jekyll, github, ruby]
 ## Features & Benefits
 
 - Configurable with themes
-- Syntax highlighting
-- Search
-- Atom Feeds
-- Google Analytics
-- SEO and Performance Optimization
+- xx
 
 ## Requirements
 
