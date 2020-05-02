@@ -1,6 +1,8 @@
 ---
 title: About - Siddharth Abbineni
 author: Siddharth Abbineni
+layout: post
+toc: true
 # Siddharth Abbineni - Resume
 ---
 
