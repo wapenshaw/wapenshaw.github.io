@@ -6,8 +6,6 @@ categories: [Guides, Webdev]
 tags: [jekyll, github, ruby]
 ---
 
-# Setting up a Github user page from scratch with Jekyll
-
 ## Features & Benefits
 
 - Configurable with themes
