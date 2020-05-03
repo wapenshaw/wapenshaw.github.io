@@ -1,5 +1,5 @@
 ---
-title: Setting up a Github user page from scratch with Jekyll
+title: GUIDE - Setting up a Github user page from scratch with Jekyll
 author: Siddharth Abbineni
 date: 2020-05-02 11:33:00 +0530
 categories: [Guides, Webdev]
@@ -32,7 +32,7 @@ tags: [jekyll, github, ruby]
 
 ![Create a Repository](../../assets/img/images/newRepo.png)
 
-4. You are done on Github for now. We will get back after setting up our local environment.
+You are done on Github for now. We will get back after setting up our local environment.
 
 (_Note: You cannot publish your github pages if you set the repository to "Private". To use GitHub pages on a private repository, you need the [PRO](https://github.com/pricing) plan. If you have bought a jekyll theme, you might be required to make the repository private, check with your vendor._)
 
@@ -52,13 +52,12 @@ tags: [jekyll, github, ruby]
       - `choco install make`
       - `choco install mingw`
 
-4) To verify everything has been installed and setup properly use the following commands
-
-      - `ruby -v` | `gem -v` | `gcc --version` | `g++ --version` | `make --version`
+4) To verify everything has been installed and setup properly use the following commands\
+   `ruby -v` | `gem -v` | `gcc --version` | `g++ --version` | `make --version`
 
 5) If everything went according to plan, your terminal should look like this
 
-      ![Terminal output](../../assets/img/images/rubyCheck.png)
+![Terminal output](../../assets/img/images/rubyCheck.png)
 
 ## Git Setup
 
@@ -104,10 +103,10 @@ For a comprehensive guide on how to start a jekyll site from scratch follow the 
 7. Change Directory to the newly created folder `cd foldername`
 8. If you havent extracted the files, you can check out the file from the github repo, this is preferred.
 9. Remember the theme's github repository url? Now is the time to use it.
-10. Clone the repository to your foldername using\
-    `git clone repository-URL-you-just-copied.git -b master`
-11. Now your foldername should look something similar to this\
-    ![Folder Tree](../../assets/img/images/directoryList.png)
+10. Clone the repository to your foldername using `git clone repository-URL-you-just-copied.git -b master`
+11. Now your foldername should look something similar to this
+
+![Folder Tree](../../assets/img/images/directoryList.png)
 
 ### Setting up remote git repo
 
@@ -129,21 +128,15 @@ For a comprehensive guide on how to start a jekyll site from scratch follow the 
 5. Now open the \_config.yml file and modify the settings according to your needs, the important ones are:
       1. `url: 'https://username.github.io'` (if you are hosting it to the username.github.io repository)
       2. `baseurl: ''` (not required for this instance)
-6. Type in\
-   `bundle exec jekyll serve`\
-   This will launch a webserver and host your website locally at [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+6. Type in `bundle exec jekyll serve` This will launch a webserver and host your website locally at [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 ### Commiting and pushing everything to Github
 
 1. After you have made all the changes in the configuration and other pages, it is now time to push all the files to Github
-2. Check git status, this will show you which files are unstaged\
-   `git status`
-3. Add all files to staging\
-   `git add .`
-4. Commit the files to the branch\
-   `git commit -m Initial Commit`
-5. Push the commit to the remote repository (github repo)\
-   `git push origin master`
+2. Check git status, this will show you which files are unstaged: `git status`
+3. Add all files to staging: `git add .`
+4. Commit the files to the branch: `git commit -m Initial Commit`
+5. Push the commit to the remote repository (github repo) `git push origin master`
 6. Now visit your github repository page at https://github.com/username/username.github.io and verify the files are uploaded
 7. Wait a minute or two and visit https://username.github.io and the pages will appear!
 
@@ -151,7 +144,7 @@ For a comprehensive guide on how to start a jekyll site from scratch follow the 
 
 When you make changes to your website from now these are the steps to follow,
 
-1. check everything is working fine with `bundle exec jekyll serve` and visiting `http://127.0.0.1`
-2. Add all changed files to staging with `git add .`
-3. Commit changes to the branch `git commit -m "my commit message"`
-4. Push the commit to the remote (github) repository with `git push origin master`
+1. check everything is working fine with: `bundle exec jekyll serve` and visiting `http://127.0.0.1:4000/`
+2. Add all changed files to staging with: `git add .`
+3. Commit changes to the branch: `git commit -m "my commit message"`
+4. Push the commit to the remote (github) repository with: `git push origin master`
