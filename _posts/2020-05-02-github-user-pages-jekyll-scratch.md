@@ -1,5 +1,5 @@
 ---
-title: [Guide] Setting up a Github user page from scratch with Jekyll
+title: Setting up a Github user page from scratch with Jekyll
 author: Siddharth Abbineni
 date: 2020-05-02 11:33:00 +0530
 categories: [Guides, Webdev]
@@ -12,7 +12,6 @@ tags: [jekyll, github, ruby]
 - Hosted on username.github.io subdomain
 - Jekyll gives you the speed and simplicity of hosting your home or your application page.
 - Configurable with themes
-- xx
 
 ## Requirements
 
