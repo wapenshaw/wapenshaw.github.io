@@ -49,7 +49,7 @@ google_analytics:
     # Fill with your Google Analytics ID
     id: 'UA-165362540-1'
     # The Google Analytics pageviews switch.
-
+    provider: 'google-universal'
     pv:
         # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
         enabled: false

@@ -3,16 +3,6 @@
 - name: Home
   icon: 'fas fa-home'
 
-- name: Categories
-  icon: 'fas fa-stream'
-  path: tabs
-  url: categories
-
-- name: Tags
-  icon: 'fas fa-tags'
-  path: tabs
-  url: tags
-
 - name: Projects
   path: tabs
   url: projects
@@ -22,3 +12,13 @@
   icon: 'fas fa-info'
   path: tabs
   url: about
+
+- name: Categories
+  icon: 'fas fa-stream'
+  path: tabs
+  url: categories
+
+- name: Tags
+  icon: 'fas fa-tags'
+  path: tabs
+  url: tags
