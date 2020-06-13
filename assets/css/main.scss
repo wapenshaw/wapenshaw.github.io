@@ -80,9 +80,7 @@ $sidebar-display: "sidebar-display";
   z-index: 99;
   background: rgb(42, 30, 107);
   background: var(--sidebar-bg);
-  a {
-    @include sidebar-icon;
-  }
+
   .sidebar-bottom {
     .icon-border+a { // the icon behide mode-toggle
       margin-left: .1rem;
@@ -169,7 +167,6 @@ $sidebar-display: "sidebar-display";
 
     #mode-toggle-wrapper {
       i {
-        @include sidebar-icon;
         margin-right: 0;
         font-size: 1.05rem;
         text-align: center;

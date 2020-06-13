@@ -4,24 +4,16 @@
 #  © 2020 Cotes Chung
 #  MIT Licensed
 
--
-  type: github
+- type: github
   icon: 'fab fa-github-alt'
--
-  type: twitter
+- type: twitter
   icon: 'fab fa-twitter'
--
-  type: email
+- type: email
   icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
-
+  noblank: true # open link in current tab
+- type: stackoverflow
   icon: 'fab fa-stack-overflow'
-  url:  'https://stackoverflow.com/users/66384/thesid'                  # Fill with your stackoverflow homepage
-
+  url: 'https://stackoverflow.com/users/66384/thesid' # Fill with your stackoverflow homepage
 
 # Uncomment and complete the url below to enable more contact options
 # -
